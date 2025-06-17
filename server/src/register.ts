@@ -1,7 +1,11 @@
-import type { Core } from '@strapi/strapi';
+import type { Core } from '@strapi/strapi'
 
 const register = ({ strapi }: { strapi: Core.Strapi }) => {
-  // register phase
-};
+  strapi.customFields.register({
+    name: 'link-field',
+    plugin: 'link-field',
+    type: 'json',
+  })
+}
 
-export default register;
+export default register

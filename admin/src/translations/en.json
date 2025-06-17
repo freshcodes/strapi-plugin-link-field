@@ -1,1 +1,5 @@
-{}
+{
+  "link-field.plugin.name": "Link Field",
+  "link-field.label": "Link Field",
+  "link-field.description": "A flexible link field supporting URLs, files, and relations"
+}

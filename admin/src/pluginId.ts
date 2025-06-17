@@ -1,1 +1,1 @@
-export const PLUGIN_ID = 'link-field';
+export const PLUGIN_ID = 'link-field'
